@@ -23,6 +23,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations -->
+    <dependencies>
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+    </dependencies>
+
 </project>
-
-
